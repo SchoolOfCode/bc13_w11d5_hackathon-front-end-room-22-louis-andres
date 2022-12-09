@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import RandomCard from "./components/getRanCard/getRanCard";
 
 function App() {
   return (
-    
+    <div className="App">
+      <RandomCard />
+    </div>
   );
 }
 
