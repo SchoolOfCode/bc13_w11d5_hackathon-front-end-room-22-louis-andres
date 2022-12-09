@@ -1,0 +1,17 @@
+body {
+    background-color:#212121;
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#212121;
+    
+}
+
+h1 {
+    color: aliceblue;
+    font-family: OCR A Std, monospace;
+}
+
