@@ -1,4 +1,5 @@
 import "./App.css";
+import RandomCard from "./components/getRanCard/getRanCard";
 import React from "react";
 import CardDisplay from "./components/cardDisplay/cardDisplay";
 
@@ -10,7 +11,7 @@ function App() {
         <CardDisplay />
       </div>
       <div className="GetRandomCardButton">
-        <button className="RandomButton">GET RANDOM CARD</button>
+      <RandomCard />
       </div>
     </div>
   );
