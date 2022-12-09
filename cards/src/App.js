@@ -5,12 +5,8 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      <div className="CardDisplay">
-        <h1>Card Game</h1>
-      </div>
-      <div className="GetRandomCardButton">
-        <RandomCard />
-      </div>
+    <h1>Card Game</h1>
+    <RandomCard />
     </div>
   );
 }
