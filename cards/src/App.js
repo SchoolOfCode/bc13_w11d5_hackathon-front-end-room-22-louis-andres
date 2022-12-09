@@ -1,7 +1,6 @@
 import "./App.css";
 import RandomCard from "./components/getRanCard/getRanCard";
 import React from "react";
-import CardDisplay from "./components/CardDisplay/cardDisplay.js";
 
 function App() {
   return (
