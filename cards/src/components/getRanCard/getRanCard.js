@@ -22,7 +22,7 @@ function RandomCard() {
       img: data.payload[0].img_url,
     };
     return (
-      <>
+      <> <div className="getRanCard">
         {/* <p className="card">{cardInfo.value + cardInfo.suit}</p> */}
         <img className="card-img" src={cardInfo.img} alt="card-img"></img>
         <button
@@ -32,6 +32,7 @@ function RandomCard() {
         >
           Click to get a random card
         </button>
+        </div>  
       </>
     );
   }
@@ -39,8 +40,8 @@ function RandomCard() {
   //function HandleClick
 
   return (
-    <>
-      {/* <p className="card">{cardInfo.value + cardInfo.suit}</p> */}
+    <> <div className="getRanCard">
+      {/* <p className="getRanCard">{cardInfo.value + cardInfo.suit}</p> */}
       <img className="card-img" alt="card-img"></img>
       <button
         className="random-button"
@@ -49,7 +50,8 @@ function RandomCard() {
       >
         Click to get a random card
       </button>
-    </>
+      </div>  
+      </>
   );
 }
 

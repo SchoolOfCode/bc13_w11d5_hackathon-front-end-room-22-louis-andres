@@ -1,8 +1,12 @@
-.random-button {
+.getRanCard {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
+
+
 
 .random-button {
     padding: 0.6em 2em;
@@ -17,6 +21,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    font-family: OCR A Std, monospace;
 }
 
 .random-button:before {

@@ -6,12 +6,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
     background-color:#212121;
     
 }
 
 h1 {
     color: aliceblue;
+    font-family: OCR A Std, monospace;
 }
 
